@@ -2,7 +2,7 @@
 
 
 
-Optical Coherence Tomography Image Denoising via Multi-input Fully-Convolutional Networks
+Optical Coherence Tomography Image Denoising via Multi-input Fully-Convolutional Networks [paper link](https://doi.org/10.1016/j.compbiomed.2019.01.010)
 
 The tensorflow implementation of the proposed MIFCN method.
 

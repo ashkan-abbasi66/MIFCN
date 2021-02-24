@@ -18,6 +18,9 @@ Fig. 3: Visual comparison of two denoised images by the compared methods. First 
 <br>
 Fig. 4: More visual results for retinal OCT image denoising. First column: (A) Original Noisy Image; (B) KSVD Denoising (PSNR = 27.22); (C) BM3D (PSNR = 27.30); (D) SAIST (PSNR = 27.24); (E) PG-GMM (PSNR = 27.33); (F) BM4D (PSNR = 27.63); (G) SSR (PSNR = 27.61); (H) The proposed MIFCN method (PSNR = 28.53); (I) The registered and averaged images. Second column: (J) Original Noisy Image; (K) KSVD Denoising (PSNR = 21.90); (L) BM3D (PSNR = 21.65); (M) SAIST (PSNR = 21.72); (N) PG-GMM (PSNR = 21.68); (O) BM4D (PSNR = 21.78); (P) SSR (PSNR = 22.06); (Q) The proposed MIFCN method (PSNR = 22.43); (R) The registered and averaged images. -->
 
+**IMPORTANT UPDATE at 2/24/2021** 
+  - We have just noticed that the PSNR results reported below fig. 3 are belong to the outputs of the methods for image #11 in the dataset, while the figure in the paper shows the results corresponding to image #3. Sorry for the inconvenience that may have caused for you!
+
 # Computing PSNR metric
 The PSNR results that are reported in the table are obtained after shaving output and ground-truth images. This is done because we want to focus on the important parts of each OCT image. Some algorithms may have inferior results in recovering layers and textures but might have good ability to remove noise in smooth areas. Therefore, to compute PSNR metric, the output images of all algorithms are shaved. You can use the following piece of code to replicate the results that are reported in the paper.
 
@@ -35,7 +38,7 @@ The ROIs and the `comp_psnr` function are saved into `EVAL` folder.
 
 **IMPORTANT UPDATE at 2/24/2021** 
   - Just use `evaluate_results.m` to compute PSNR for the saved results. It computes the PSNRs for all images and then save them in an excel file. The PSNRs are computed in two ways: 1) using the whole ground-truth and output images, 2) using the shaved (cropped) ground-truth and output images. 
-  - We have just noticed that the PSNR results reported below fig. 3 are belong to the outputs of the methods for image #11 in the dataset, while the figure in the paper shows the results corresponding to image #3. Sorry for the inconvenience that may have caused for you!
+
 
 # References
 [1] M. Elad and M. Aharon, “Image Denoising Via Sparse and Redundant Representations Over Learned Dictionaries,” IEEE Trans. Image Process., vol. 15, no. 12, pp. 3736–3745, Dec. 2006.<br>

@@ -50,14 +50,3 @@ We extracted 15x15 patches from each cropped image pairs.
 
 Since reading extracted patches as individual files from a hard disk is time-consuming, we saved all those patches in two numpy files: `train15_inputs.npy` and `train15_labels.npy`.
 
-
-
-
-
-# TO DO
-
-- [ ] Write description of dataset
-- [ ] Write training procedure
-- [ ] Write test procedure
-- [ ] 
-

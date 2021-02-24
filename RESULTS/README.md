@@ -33,7 +33,7 @@ PSNR=comp_psnr(Truth_shaved ,im_out_shaved);
 ```
 The ROIs and the `comp_psnr` function are saved into `EVAL` folder.
 
-**UPDATE at 2/24/2021** 
+**IMPORTANT UPDATE at 2/24/2021** 
   - Just use `evaluate_results.m` to compute PSNR for the saved results. It computes the PSNRs for all images and then save them in an excel file. The PSNRs are computed in two ways: 1) using the whole ground-truth and output images, 2) using the shaved (cropped) ground-truth and output images. 
   - We have just noticed that the PSNR results reported below fig. 3 are belong to the outputs of the methods for image #11 in the dataset, while the figure in the paper shows the results corresponding to image #3. Sorry for the inconvenience that may have caused for you!
 

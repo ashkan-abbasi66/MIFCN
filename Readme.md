@@ -10,7 +10,7 @@ The tensorflow implementation of the proposed MIFCN method.
 
 ## Results
 
-The results are stored [here](https://github.com/ashkan-abbasi66/MIFCN_Results).
+The results are stored [here](https://github.com/ashkan-abbasi66/MIFCN/tree/master/RESULTS).
 
 
 

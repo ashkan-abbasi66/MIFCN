@@ -10,7 +10,7 @@ The tensorflow implementation of the proposed MIFCN method.
 
 ## Results
 
-The results are stored [here](https://github.com/ashkan-abbasi66/MIFCN/tree/master/RESULTS). (It also contains the denosing dataset, and a script which computes PSNR results as they were reported in the paper)
+The results are stored [here](https://github.com/ashkan-abbasi66/MIFCN/tree/master/RESULTS). (It also contains the denosing test dataset, and a script which computes PSNR results as they were reported in the paper)
 
 
 
